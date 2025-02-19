@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.banner-img{
+    background: url('../public/img/hero-image-1.png'); 
+    @apply h-[450px]
+}
+
+@theme{
+    --color-orange-350: #FD9142
+}
